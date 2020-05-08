@@ -1,192 +1,268 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" >
+<html lang="zh-CN">
 
+<head>
+    <meta charset="UTF-8" />
 <title>Gridea</title>
 <meta name="description" content="温故而知新">
-
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://lamb-hyj.github.io/lamb-hyj//favicon.ico?v=1588682122282">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://lamb-hyj.github.io/lamb-hyj//styles/main.css">
+<link type='text/css' rel='stylesheet' href='https://lamb-hyj.github.io/lamb-hyj//styles/main.css' media='screen' />
+<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css">
+<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script type="text/javascript" src='https://lamb-hyj.github.io/lamb-hyj//media/scripts/jquery.js'></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+</head>
+
+<body>
+
+    <div class="layout theme-dark">
+
+        <div class="layout-header">
+
+	<div class="layout-header-main">
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-9">
+
+					<div class="navbar">
+
+						<div class="logo">
+							<a href="https://lamb-hyj.github.io/lamb-hyj/">
+								<img class="logo"
+									src="https://lamb-hyj.github.io/lamb-hyj//media/images/site_avatar.png?v=1588922453141"
+									alt="">
+							</a>
+						</div>
+
+						<div class="menu d-md-inline-block d-none">
+							<ul class="layout-navigation-list">
+								
+								<li class="layout-navigation-item"><a title="首页"
+										href="/">首页</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="归档"
+										href="/archives">归档</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="标签"
+										href="/tags">标签</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="关于"
+										href="/post/about">关于</a>
+								</li>
+								
+							</ul>
+						</div>
+
+						<div class="item d-md-inline-block d-none">
+							<div class="search-icon">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</div>
+						</div>
 
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+						<div class="d-md-inline-block d-none">
+							<div class="search-lightbox">
+								<div class="search-body">
+
+									<form id="gridea-search-form" data-update="1588922453141" action="/search/" class="search-form">
+										<input type="text" name="q" id="s" value="" class="search-field" placeholder="请输入搜索关键词" aria-label="请输入搜索关键词" required="">
+										<button type="submit" class="submit" aria-label="Submit">
+											<i class="fa fa-search" aria-hidden="true"></i>
+										</button>
+									</form>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="nav d-md-none d-inline-block">
+							<div class="trigger">
+								<i class="fa fa-bars layout-btn-toggle" aria-hidden="true"></i>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
-  </head>
-  <body>
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="https://lamb-hyj.github.io/lamb-hyj/">Gridea</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
+		</div>
+	</div>
+
+</div>
         
-          <li>
-            
-              <a href="/" class="menu">
-                首页
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/archives" class="menu">
-                归档
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/tags" class="menu">
-                标签
-              </a>
-            
-          </li>
-        
-          <li>
-            
-              <a href="/post/about" class="menu">
-                关于
-              </a>
-            
-          </li>
-        
-      </ul>
+        <div class="layout-collapse d-md-none">
+	<div class="layout-collapse-main">
+		<ul class="layout-collapse-list">
+			
+			<li class="layout-collapse-item"><a title="首页" href="/">首页</a></li>
+			
+			<li class="layout-collapse-item"><a title="归档" href="/archives">归档</a></li>
+			
+			<li class="layout-collapse-item"><a title="标签" href="/tags">标签</a></li>
+			
+			<li class="layout-collapse-item"><a title="关于" href="/post/about">关于</a></li>
+			
+
+		</ul>
+	</div>
+</div>
+
+        <div class="layout-banner">
+  <div class="layout-banner-main">
+    <div class="container">
+      <div class="row justify-content-lg-center">
+        <div class="col-12 col-lg-9">
+          <div class="banner">
+            <div class="banner-list row">
+              <div class="item col-12 col-sm-9">
+                
+                
+                <div class="banner-card main">
+                  <a class="card-content" href="https://lamb-hyj.github.io/lamb-hyj/post/hello-gridea/" style="background-image: url('https://lamb-hyj.github.io/lamb-hyj//post-images/hello-gridea.png')">
+                    <div class="mask"></div>
+                    <div class="title">
+                      <h3 class="card-title">Hello Gridea</h3>
+                    </div>
+                  </a>
+                </div>
+                
+              </div>
+              <div class="col-12 col-sm-3">
+                <div class="row">
+                  
+                  
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</nav>
+</div>
 
+        <div class="layout-content">
+  <div class="layout-content-main">
+    <div class="container">
+      <div class="row justify-content-lg-center">
+        <div class="col-12 col-lg-9">
+          <div class="card-list">
+            
+            
+            
+            
+            
+          </div>
 
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
           
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://lamb-hyj.github.io/lamb-hyj/post/hello-gridea/">Hello Gridea</a>
-    </h2>
-    <p class="article-meta">
-      2018-12-12
-      
-        <a href="https://lamb-hyj.github.io/lamb-hyj/tag/-f9vTRJZp/" class="badge success">
-          Gridea
-        </a>
-      
-    </p>
-    <p class="text-lead">
-      <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-
-    </p>
-    <div class="row">
-      <a href="https://lamb-hyj.github.io/lamb-hyj/post/hello-gridea/" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
 
         </div>
-        
-        <div class="row flex-edges">
-  
-  
-</div>
-
       </div>
-      
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="https://lamb-hyj.github.io/lamb-hyj//images/avatar.png?v=1588682122282" class="no-responsive avatar">
-    <div class="text-muted">温故而知新</div>
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
     </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
-    </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="https://lamb-hyj.github.io/lamb-hyj/post/about/">关于</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://lamb-hyj.github.io/lamb-hyj/post/hello-gridea/">Hello Gridea</a>
-            </li>
-          
-        
-      </ul>
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-        <a href="https://lamb-hyj.github.io/lamb-hyj/tag/-f9vTRJZp/" class="badge secondary">
-          Gridea
-        </a>
-      
-    </div>
-  </div>
-  <div class="paper">
-    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://lamb-hyj.github.io/lamb-hyj//atom.xml" target="_blank">RSS</a>
   </div>
 </div>
 
-    </div>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-<script type="application/javascript">
-
-AOS.init();
-
-hljs.initHighlightingOnLoad()
-
+<script type="text/javascript">
+  //点击加载更多
+  jQuery(document).ready(function ($) {
+    //点击下一页的链接(即那个a标签)
+    $(' .btn-paginator').click(function () {
+      $this = $(this);
+      $this.addClass('loading').text('正在加载'); //给a标签加载一个loading的class属性，用来添加加载效果
+      var href = $this.attr('href'); //获取下一页的链接地址
+      if (href != undefined) { //如果地址存在
+        $.ajax({ //发起ajax请求
+          url: href,
+          //请求的地址就是下一页的链接
+          type: 'get',
+          //请求类型是get
+          error: function (request) {
+            //如果发生错误怎么处理
+          },
+          success: function (data) { //请求成功
+            $this.removeClass('loading').text('加载更多'); //移除loading属性
+            var $res = $(data).find('.card'); //从数据中挑出文章数据，请根据实际情况更改
+            $('.card-list').append($res.fadeIn(
+              500)); //将数据加载加进posts-loop的标签中。
+            var newhref = $(data).find('.btn-paginator').attr('href'); //找出新的下一页链接
+            if (newhref != undefined) {
+              $('.btn-paginator').attr('href', newhref);
+            } else {
+              $('.btn-paginator').remove(); //如果没有下一页了，隐藏
+            }
+          }
+        });
+      }
+      return false;
+    });
+  });
 </script>
 
+        	<div class="layout-footer">
 
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-9">
+					<div class="footer">
+						<div class="row">
+							<div class="col-12 col-md-9">
+								<div class="footer-copy">
+									
+									Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+									<div class="footer-icp d-none d-sm-inline-block">
+										<span class="px-2">⋅</span>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 d-none d-md-block">
+								<div class="footer-links">
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
+	</div>
 
-  </body>
+	<script type="text/javascript" src='https://lamb-hyj.github.io/lamb-hyj//media/scripts/main.js'></script>
+	
+    </div>
+</body>
+
 </html>

@@ -1,23 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lamb-hyj.github.io/lamb-hyj/</id>
-    <title>Gridea</title>
-    <updated>2020-05-09T02:52:53.167Z</updated>
+    <title>Lamb&apos;life</title>
+    <updated>2020-05-09T03:01:27.096Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lamb-hyj.github.io/lamb-hyj/"/>
     <link rel="self" href="https://lamb-hyj.github.io/lamb-hyj/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>我不会试图摘月，我要月亮奔我而来</subtitle>
     <logo>https://lamb-hyj.github.io/lamb-hyj/images/avatar.png</logo>
     <icon>https://lamb-hyj.github.io/lamb-hyj/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, Lamb&apos;life</rights>
     <entry>
         <title type="html"><![CDATA[博客搬迁]]></title>
         <id>https://lamb-hyj.github.io/lamb-hyj/post/bo-ke-ban-qian/</id>
         <link href="https://lamb-hyj.github.io/lamb-hyj/post/bo-ke-ban-qian/">
         </link>
         <updated>2020-05-09T02:49:51.000Z</updated>
-        <content type="html"><![CDATA[<p>由于各种奇怪原因，不得不被迫拆迁......<br>
-原blog链接如下：<a href="https://lamb-hyj.github.io/lamb.github.io/">x</a></p>
+        <summary type="html"><![CDATA[<p>  由于各种奇怪原因，不得不被迫拆迁......</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>  由于各种奇怪原因，不得不被迫拆迁......</p>
+<!-- more -->
+<!--
+    可能要用到的代码
+    &emsp;                     空格，占一个汉字
+    &thinsp;                    细空格   6*&thinsp; ≈&emsp;
+    <br>                         换行标签
+-->
+<p>  原blog链接如下：<a href="https://lamb-hyj.github.io/lamb.github.io/">Lamb'life</a></p>
 ]]></content>
     </entry>
     <entry>

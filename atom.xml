@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lamb-hyj.github.io/lamb-hyj/</id>
     <title>Lamb&apos;life</title>
-    <updated>2020-05-09T03:01:27.096Z</updated>
+    <updated>2020-05-24T04:41:14.280Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lamb-hyj.github.io/lamb-hyj/"/>
     <link rel="self" href="https://lamb-hyj.github.io/lamb-hyj/atom.xml"/>
@@ -10,6 +10,49 @@
     <logo>https://lamb-hyj.github.io/lamb-hyj/images/avatar.png</logo>
     <icon>https://lamb-hyj.github.io/lamb-hyj/favicon.ico</icon>
     <rights>All rights reserved 2020, Lamb&apos;life</rights>
+    <entry>
+        <title type="html"><![CDATA[复学第一周]]></title>
+        <id>https://lamb-hyj.github.io/lamb-hyj/post/fu-xue-di-yi-zhou/</id>
+        <link href="https://lamb-hyj.github.io/lamb-hyj/post/fu-xue-di-yi-zhou/">
+        </link>
+        <updated>2020-05-15T11:26:50.000Z</updated>
+        <summary type="html"><![CDATA[<p>  奇妙的一周~</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>  奇妙的一周~</p>
+<!-- more -->
+<!--
+    可能要用到的代码
+    &emsp;                     空格，占一个汉字
+    &thinsp;                    细空格   6*&thinsp; ≈&emsp;
+    <br>                         换行标签
+-->
+<blockquote>
+<blockquote>
+<p>久不见君，甚是想念。</p>
+</blockquote>
+</blockquote>
+<p>  终于见到可爱的同学们le~<br>
+  一个寒假没见，大家都变可爱了呢。<br>
+  “总觉得有千言万语想说，但在相见的那一刻，又无语凝噎。”<br>
+  ya琴姐姐：我们都有了跟以后的人炫耀的资本了，经历了这么久的假期，开学考考了一天居然还被叫停了（<s>偷笑</s>）。<br>
+  木公：是骡子是马，拉出来溜溜就知道了，结果现在......<br>
+  燕姐：我总是认为，大家都在努力学习，就我一个人荒废了大把时光（<s>+1</s>）。<br>
+  岚岚：我知道大家现在公务繁忙（<s>补作业快枯了</s>）。<br>
+  海哥：你们欠的债总是要还的QAQ。<br>
+  华姐还是夺命积累qwq，希希又变回“和蔼”的样子了，而姆斯肉眼可见的胖了？？？（<s>又似乎没有呢</s>）美丽的fqyz外交部钦差大臣还带着她那熟悉的尾音来了，晴还是一如既往地讲述她的悲苦遭遇。<br>
+  每天居然都午睡了一个小时，怎么办，有点久......<br>
+  我居然报名了什么红袖章志愿者？？？每天七点到校站岗？天哪！什么时候会轮到我呢？<br>
+  又是有点小废的一周，又是作业做不完的一周啊~<br>
+  值得庆幸的是那篇乱七八糟的作文居然被华姐表扬了，可是下周华姐就要检查作业了？？？我刚树立的良好形象又要毁了（这熟悉的套路qwq）。<br>
+  加油吧......听说消失了的半期考又要重出江湖了（<s>那位素未谋面的同学的自由落体都拯救不了我们？</s>  还好人没事），下周要好好复习鸭~</p>
+<blockquote>
+<blockquote>
+<p>愿今日之坎坷，成明日之赞歌。<br>
+                     ——猿气日签</p>
+</blockquote>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[博客搬迁]]></title>
         <id>https://lamb-hyj.github.io/lamb-hyj/post/bo-ke-ban-qian/</id>
